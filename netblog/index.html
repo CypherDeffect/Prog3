@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Netblog</title>
+        <link rel="stylesheet" href="istaile.css">
+    </head>
+
+    <body>
+        <div>
+            <h1>No balanço da rede, você navega no conhecimento</h1>
+        </div>
+       
+
+        <h3>Como adotar um dispositivo UniFI por <abbr title="Secure Shell">SSH</abbr></h3>
+    <div>
+        <ol>
+            <li>Conecte o dispositivo em uma porta livre de seu Switch</li>
+            <br>
+            <li>Verifique o IP que foi atribuido ao dispositivo</li>
+                <img src="images/net1.png" alt="ipscanner" width="900" height="500">
+            <li>Abra o Putty e entre com o IP do dispoitivo</li>
+                <img src="images/putty.png" alt="putty" width="900" height="500">
+            
+            <li>Entre com o seguinte comando no terminal</li>
+            
+            <div class="code-toolbar">
+                <pre class="prismjs line-numbers language-plaintext">  
+                    <code class="language-plaintext">set-inform http://ipcontroller:8080/inform</code>
+                </pre>
+            </div>
+
+
+            <li>O dispoitivo irá aparecer para adoção no Controller. Clique em <kbd>apopt</kbd> para adotar</li>
+                <img src="images/adopt.png" alt="adopt">
+        </ol>
+    </div>
+        
+            
+
+            <blockquote class="info">
+                <li>Para mais informações, consulte este <a href="https://medium.com/ubntbr/ado%C3%A7%C3%A3o-em-l3-como-utilizar-o-unifi-controller-na-nuvem-para-gerenciar-m%C3%BAltiplos-sites-remotos-98681fc215b4">tutorial</a></li>
+
+            </blockquote>
+    </body>
+</html>

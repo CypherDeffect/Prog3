@@ -1,0 +1,23 @@
+h1 {
+    border: 2px solid blue;
+    padding-left: 30px;
+}
+
+li {
+    color: black;
+}
+
+code {
+    color: ghostwhite;
+    background-color: black;
+}
+
+img {
+    width: auto;
+    height: auto;
+  }
+
+div {
+    width:auto;
+    margin:auto;
+}
